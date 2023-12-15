@@ -10,4 +10,8 @@ INSERT INTO executor(id_executor, name, surname, number_telephone, object_manage
 INSERT INTO executor(id_executor, name, surname, number_telephone, object_management) VALUES (4, 'Вадим', 'Олегов','+79610742223', 'Объекты под управлением: 2');
 INSERT INTO executor(id_executor, name, surname, number_telephone, object_management) VALUES (5, 'Дамир', 'Давыдов','+79433454212', 'Объекты под управлением: 5');
 
-INSERT INTO ordeer(ID_ORDER, DATE_CREATE, OBJECT, TYPE_REPAIR, DESCRIPTION_OBJECT, CLIENT, DATE_END, EXECUTOR) VALUES (1,'10.10.2023','Частный дом','Косметический','-',2,'',)
+INSERT INTO ordeer(id_ordeer, DATE_CREATE, OBJECT, TYPE_REPAIR, DESCRIPTION_OBJECT, CLIENT, DATE_END, EXECUTOR) VALUES (1,'10.10.2023','Частный дом','Косметический','-',2,'',1);
+INSERT INTO ordeer(id_ordeer, DATE_CREATE, OBJECT, TYPE_REPAIR, DESCRIPTION_OBJECT, CLIENT, DATE_END, EXECUTOR) VALUES (2,'09.10.2023','Частный дом','Косметический','-',2,'',2);
+INSERT INTO ordeer(id_ordeer, DATE_CREATE, OBJECT, TYPE_REPAIR, DESCRIPTION_OBJECT, CLIENT, DATE_END, EXECUTOR) VALUES (3,'08.10.2023','Частный дом','Косметический','-',2,'',3);
+INSERT INTO ordeer(id_ordeer, DATE_CREATE, OBJECT, TYPE_REPAIR, DESCRIPTION_OBJECT, CLIENT, DATE_END, EXECUTOR) VALUES (4,'07.10.2023','Частный дом','Косметический','-',2,'',4);
+INSERT INTO ordeer(id_ordeer, DATE_CREATE, OBJECT, TYPE_REPAIR, DESCRIPTION_OBJECT, CLIENT, DATE_END, EXECUTOR) VALUES (5,'06.10.2023','Частный дом','Косметический','-',2,'',5);
