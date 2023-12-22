@@ -1,32 +1,33 @@
 from typing import List
 
 from fastapi import APIRouter
-from .models import executor, oredeer, User, client
-from .resolvers import add_new_group, get_group, get_groups, update_group, delete_current_group
+from .models import ImputExecutor, OutputExecutor, NewId
+from .resolvers import get_executors, get_executor, add_new_executor, update_executor, delete_current_executor
+
 
 router = APIRouter()
 
 
 @router.get('/')
-def get_client() -> List[client]:
-    return get_client()
+def get_executor() -> List[OutputExecutor]:
+    return get_executors()
 
 
-@router.get('/{client_id}')
-def get_current_client(client_id: int) -> client:
-    return get_client(client_id)
+@router.get('/{executor_id}')
+def get_current_executor(executor_id: int) -> OutputExecutor:
+    return get_executor(executor_id)
 
 
-@router.post('/')f
-def add_group(new_group: ImputGroup) -> NewId:
-    return add_new_group(new_group)
+@router.post('/')
+def add_executor(new_executor: ImputExecutor) -> NewId:
+    return add_new_executor(new_executor)
 
 
-@router.put('/{group_id}')
-def add_group(group_id: int, new_group: ImputGroup) -> NewId:
-    return update_group(group_id, new_group)
+@router.put('/{executor_id}')
+def add_executor(executor_id: int, new_executor: ImputExecutor) -> NewId:
+    return update_executor(executor_id, new_executor)
 
 
-@router.delete("/{group_id}")
-def delete_group(group_id: int) -> NewId:
-    return delete_current_group(group_id)
+@router.delete("/{executor_id}")
+def delete_executor(executor_id: int) -> NewId:
+    return delete_current_executor(executor_id)
