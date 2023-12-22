@@ -1,3 +1,16 @@
+CREATE TABLE posts(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name VARCHAR(100));
+
+CREATE TABLE users(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    login VARCHAR(100),
+    password VARCHAR(100),
+    post_id INTEGER,
+    FOREIGN KEY(post_id)
+        REFERENCES posts(id)
+            ON DELETE NO ACTION);
+
 CREATE TABLE client (
     id integer not null primary key unique,
     name varchar (20) not null unique,

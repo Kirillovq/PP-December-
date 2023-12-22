@@ -5,27 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b5fa483-7b95-4a7e-af22-cd9167b9b6d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/orders/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/orders/resolvers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/orders/routers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webResources.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/src/base_worker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/src/login_form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/src/main_form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/src/user_list_form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/start_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/ui/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/ui/login_form.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/ui/main_form.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/ui/ui_login_form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/ui/ui_main_form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/ui/ui_user_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/ui/user_list.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/users/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/users/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/users/resolvers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/users/routers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/074f000a-c8dd-4d98-908a-f015f16e42e7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/074f000a-c8dd-4d98-908a-f015f16e42e7/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/33466394-2f04-4d9f-8036-12c928d131b5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/33466394-2f04-4d9f-8036-12c928d131b5/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5d5af2c4-a6c6-4f69-ab5e-98ec2c7d5a16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5d5af2c4-a6c6-4f69-ab5e-98ec2c7d5a16/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/794ac784-856b-414e-8093-85f4f4d4948c.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/794ac784-856b-414e-8093-85f4f4d4948c/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/80a22fe6-203a-45ed-8d58-23dbddc3a2e5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/80a22fe6-203a-45ed-8d58-23dbddc3a2e5/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server/base.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/client/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/client/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/client/resolvers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/client/resolvers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/client/routers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/client/routers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/executor/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/executor/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/executor/resolvers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/executor/resolvers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/executor/routers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/executor/routers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/ordeer/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/orders/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/ordeer/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/ordeer/resolvers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/ordeer/routers.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server/scripts/primary_data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/scripts/primary_data.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server/scripts/tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/scripts/tables.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server/start_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/start_server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uml/Снимок.PNG" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,38 +71,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "G:/PP-December-/src/server/scripts/tables.sql",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/PP-December-/src/server/scripts/tables.sql&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlite",
-      "redshift"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;,
+      &quot;redshift&quot;
     ],
-    "RunConfigurationTargetLRU": [
-      "8d46c7b3-f057-4dda-97b0-188277580c19/schema/\"main\"",
-      "8d46c7b3-f057-4dda-97b0-188277580c19",
-      "ce283f8b-1607-4ad9-b156-bfb322a76e69",
-      "33466394-2f04-4d9f-8036-12c928d131b5"
+    &quot;RunConfigurationTargetLRU&quot;: [
+      &quot;8d46c7b3-f057-4dda-97b0-188277580c19/schema/\&quot;main\&quot;&quot;,
+      &quot;8d46c7b3-f057-4dda-97b0-188277580c19&quot;,
+      &quot;ce283f8b-1607-4ad9-b156-bfb322a76e69&quot;,
+      &quot;33466394-2f04-4d9f-8036-12c928d131b5&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\PP-December-\src\server\ordeer" />
@@ -240,7 +255,9 @@
       <workItem from="1703264460310" duration="3920000" />
       <workItem from="1703269251369" duration="1064000" />
       <workItem from="1703270322073" duration="440000" />
-      <workItem from="1703270773827" duration="2580000" />
+      <workItem from="1703270773827" duration="4283000" />
+      <workItem from="1703275610654" duration="3885000" />
+      <workItem from="1703279561059" duration="1532000" />
     </task>
     <servers />
   </component>
@@ -272,10 +289,13 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PP_December_$start_server.coverage" NAME="start_server Coverage Results" MODIFIED="1703279151712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/server" />
     <SUITE FILE_PATH="coverage/PP_December_$resolvers.coverage" NAME="resolvers Coverage Results" MODIFIED="1703069933762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/server/client" />
     <SUITE FILE_PATH="coverage/PP_December_$base.coverage" NAME="base Coverage Results" MODIFIED="1702064608608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/base" />
     <SUITE FILE_PATH="coverage/PP_December_$models.coverage" NAME="models Coverage Results" MODIFIED="1702987488838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/server/client" />
+    <SUITE FILE_PATH="coverage/PP_December_$start_client.coverage" NAME="start_client Coverage Results" MODIFIED="1703280592113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/client" />
+    <SUITE FILE_PATH="coverage/PP_December_$login_form.coverage" NAME="login_form Coverage Results" MODIFIED="1703280612152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/client/src" />
     <SUITE FILE_PATH="coverage/PP_December_$routers.coverage" NAME="routers Coverage Results" MODIFIED="1703069963268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/server/client" />
-    <SUITE FILE_PATH="coverage/PP_December_$start_server__1_.coverage" NAME="start_server (1) Coverage Results" MODIFIED="1703271851353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/server" />
+    <SUITE FILE_PATH="coverage/PP_December_$start_server__1_.coverage" NAME="start_server (1) Coverage Results" MODIFIED="1703281083226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/server" />
   </component>
 </project>

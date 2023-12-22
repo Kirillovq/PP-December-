@@ -15,3 +15,9 @@ INSERT INTO orders(id, DATE_CREATE, OBJECT, TYPE_REPAIR, DESCRIPTION_OBJECT, CLI
 INSERT INTO orders(id, DATE_CREATE, OBJECT, TYPE_REPAIR, DESCRIPTION_OBJECT, CLIENT, DATE_END, EXECUTOR) VALUES (3,'08.10.2023','Частный дом','Косметический','-',2,'',3);
 INSERT INTO orders(id, DATE_CREATE, OBJECT, TYPE_REPAIR, DESCRIPTION_OBJECT, CLIENT, DATE_END, EXECUTOR) VALUES (4,'07.10.2023','Частный дом','Косметический','-',2,'',4);
 INSERT INTO orders(id, DATE_CREATE, OBJECT, TYPE_REPAIR, DESCRIPTION_OBJECT, CLIENT, DATE_END, EXECUTOR) VALUES (5,'06.10.2023','Частный дом','Косметический','-',2,'',5);
+
+INSERT INTO posts(name) VALUES ('Администратор');
+INSERT INTO posts(name) VALUES ('Управляющий');
+INSERT INTO posts(name) VALUES ('Заказчик');
+
+INSERT INTO users(login, password, post_id) VALUES ('ad', 'ad', 1);

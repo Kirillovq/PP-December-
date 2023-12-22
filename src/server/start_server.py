@@ -5,12 +5,12 @@ from db_manager import base_manager
 from client import router as client_router
 from executor import router as executor_router
 from orders import router as orders_router
-#from users import router as users_router
+from users import router as users_router
 from settings import SCRIPTS_TABLES_PATH, SCRIPTS_RIMARY_DATA_PATH
 
 app = FastAPI()
 
-#app.include_router(users_router, prefix='/users')
+app.include_router(users_router, prefix='/users')
 app.include_router(client_router, prefix='/client')
 app.include_router(executor_router, prefix='/executor')
 app.include_router(orders_router, prefix='/orders')
